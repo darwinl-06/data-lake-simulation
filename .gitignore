@@ -1,4 +1,3 @@
-.raw/
 
 # OS files
 .DS_Store
@@ -54,7 +53,6 @@ htmlcov/
 *.key
 
 # Data lake / local data artifacts
-data/
 raw/
 processed/
 staging/
