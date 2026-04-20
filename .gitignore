@@ -1,0 +1,80 @@
+.raw/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging/build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test/coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Logs
+*.log
+
+# Environment/secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Data lake / local data artifacts
+data/
+raw/
+processed/
+staging/
+warehouse/
+lakehouse/
+tmp/
+cache/
+artifacts/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Cloud/cache tooling
+.aws/
+.gcloud/
+.terraform/
+.terraform.lock.hcl
+
+# Node (if used for tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
