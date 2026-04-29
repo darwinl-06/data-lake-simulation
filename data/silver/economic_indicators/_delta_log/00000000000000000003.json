@@ -1,0 +1,2 @@
+{"commitInfo":{"timestamp":1777491797692,"operation":"WRITE","operationParameters":{"mode":"Overwrite","partitionBy":"[]"},"readVersion":2,"isolationLevel":"Serializable","isBlindAppend":false,"operationMetrics":{"numFiles":"1","numOutputRows":"0","numOutputBytes":"1080"},"engineInfo":"Apache-Spark/3.5.8 Delta-Lake/3.3.0","txnId":"a7a05206-f5d4-4d2f-abc7-bdaf3d0c690a"}}
+{"remove":{"path":"part-00000-0aacd334-c4c2-4a26-8f00-5ac54416cee9-c000.snappy.parquet","deletionTimestamp":1777491797633,"dataChange":true,"extendedFileMetadata":true,"partitionValues":{},"size":462020}}
